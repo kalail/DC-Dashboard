@@ -1,1 +1,1 @@
-web: python manage.py run_gunicorn --workers=9 --bind=0.0.0.0:$PORT
+web: python dc_dashboard/manage.py run_gunicorn --workers=9 --bind=0.0.0.0:$PORT
