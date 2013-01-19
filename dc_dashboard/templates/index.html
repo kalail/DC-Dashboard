@@ -1,0 +1,15 @@
+<html>
+
+<head>
+	<title>DC Dashboard</title>
+</head>
+
+<body>
+	{% if ip %}
+		<p>Currently Running at: {{ ip }}</p>
+	{% else %}
+		<p>Offline</p>
+	{% endif %}
+</body>
+
+</html>
