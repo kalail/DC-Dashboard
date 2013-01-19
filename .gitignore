@@ -1,0 +1,3 @@
+*.pyc
+.rope_project
+local.py
